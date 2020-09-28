@@ -1,0 +1,57 @@
+.nameBox{
+    margin-left: 20px;
+    margin-bottom:-8px;
+    margin-top: -10px;
+    padding:20px;
+    background-color:rgb(0, 34, 68); 
+    text-align:center; 
+    color:white;
+    font-size: 35px;
+    width:250px;
+}
+.navbar{
+    padding:0;
+
+}
+.nav-item{
+    font-size: 20px;
+}
+h2{
+    color:rgb(0, 34, 68);
+    text-align:center;
+} 
+.img-thumbnail{
+    float:left;
+    margin-right:10px;
+}
+hr{
+    height:2px;
+}
+.btn{
+    background-color:rgb(0, 34, 68);
+}
+a{
+    color:white;
+}
+nav{
+    padding:0;
+}
+
+@media screen and (max-width: 640px) {
+    .navbar{
+        flex-wrap: none;
+    }
+    .navbar-toggler{
+        margin-left:20px;
+        float:right;
+    }
+    .nameBox{
+        margin-right:20px;
+        width: 100%;
+        font-size: 25px;
+
+    }
+    .img-thumbnail{
+        width:100%;
+    }
+}

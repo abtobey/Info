@@ -1,0 +1,113 @@
+.container{
+  padding: 20px;
+  background-color:#EEEEEE;
+  margin-top:20px;
+  border-radius:10px;
+  box-shadow: 10px 5px 5px gray;
+  border:1px solid black;
+}
+h2{
+  color:rgb(0, 34, 68);
+  text-align:center;
+} 
+.img-thumbnail{
+  float:left;
+  /* margin-right:10px; */
+}
+.btn{
+  background-color:rgb(0, 34, 68);
+}
+
+.pf-img{
+  padding:20px;
+  display:inline-block;
+  position: relative;
+  text-align: center;
+}
+.img-text{
+  position:absolute;
+  background-color:rgb(47, 62, 97);
+  top: 60%;
+  left:0;
+  right:0;
+  margin:auto;
+  width: 260px;
+  height: 195px;
+  z-index:2;
+  height:auto;
+  font-size:20px;
+  color:white;
+  line-height:1.5;
+  margin-top:10px;
+  margin-left: 10px;
+  margin-right:10px;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  height: 195px;
+  width: 260px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 30px;
+  border: 1 px solid black;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 260px;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  margin:auto;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 260px;
+  height: 195px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color:rgb(0, 34, 68);
+  color: white;
+  transform: rotateY(180deg);
+  font-size: 12px;
+  text-align: left;
+  padding:5px;
+  margin-left: 10px;
+
+}
+img{
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+
+.img-thumbnail{
+  width:50%;
+}
+}
+@media screen and (max-width: 640px) {
+
+  .img-thumbnail{
+      width:100%;
+  }
+}

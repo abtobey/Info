@@ -1,0 +1,60 @@
+{
+    "projects" : [
+    {
+        "title": "Film Club",
+        "alt": "camera",
+        "href": "https://film-club-ian-aaron.herokuapp.com/",
+        "image" : "./assets/camera.png",
+        "description" : "This was a group project, using numerous node packages including sequelize, passport, express and anime to build an interactive film review site with a SQL database to store user reviews and account info."
+    },
+    {
+        "title": "Meme It",
+        "alt": "Troll",
+        "href": "https://abtobey.github.io/MemeItGlobal/",
+        "image" : "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/220px-Trollface_non-free.png",
+        "description" : "This was a group project in my coding bootcamp. Using Imgflip API and Google translate, we built a web app to allow users to create memes, translate them into other languages and store them locally."
+    },
+    {
+        "title": "Sorter Simluation",
+        "alt": "Sorter",
+        "href": "https://abtobey.github.io/DDTT",
+        "image" : "./assets/sorter.jpg",
+        "description" : "This was my final project from CS50. Inspired by my time working at UPS, I built a simulation of a tilt tray sorter which could be adjusted based on the layout and number of people in different positions."
+    },
+    {
+        "title": "Employee Lookup",
+        "alt": "Org Chart",
+        "href": "https://abtobey.github.io/ReactEmployeePage/",
+        "image" : "./assets/orgChart.png",
+        "description" : "This is an app which I used to familiarize myself with react. It pulls a list of random names and pictures and builds an employee list that can be searched or ordered."
+    },
+    {
+        "title": "Budget Tracker",
+        "alt": "Money",
+        "href": "https://budget-tracker-aaron.herokuapp.com/",
+        "image" : "./assets/money.jpg",
+        "description" : "This is an app which uses indexedDb and service workers to allow a budgeting tool to work offline as long as the page has been loaded, and send the data to a Mongo DB as soon as connection is re-established."
+    },
+    {
+        "title": "Note Taker",
+        "alt": "Notepad",
+        "href": "https://glacial-retreat-07871.herokuapp.com/",
+        "image" : "./assets/notepad.png",
+        "description" : "This app uses express routes to create a simple note taker app. each note can be deleted or viewed individually and is saved in local storage."
+    },
+    {
+        "title": "README Generator",
+        "alt": "command line interface",
+        "href": "https://github.com/abtobey/README_Generator",
+        "image" : "./assets/cli.jpeg",
+        "description" : "This is a very useful app which uses inquirer.js for a command line interface which takes in the user's inputs to automatically format a README.md file."
+    },
+    {
+        "title": "Google Book Search App",
+        "alt": "book",
+        "href": "https://googlebooksearchtool-abtobey.herokuapp.com/",
+        "image" : "./assets/book.jpg",
+        "description" : "This is a react app which allows the user to search google books for a book and save their search results with MongoDB."
+    }
+    ]
+}

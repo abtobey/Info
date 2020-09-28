@@ -1,0 +1,17 @@
+.list-group-item{
+    font-size: 6vh;
+    text-align:center;
+}
+
+.contact{
+    font-size:8vh;
+    text-align: center;
+    color:blue
+}
+a:link {
+    color: green;
+}
+
+a:visited{
+    color:purple;
+}
