@@ -26,6 +26,8 @@ for(let i=0; i<projects.length; i++){
 }
 return (
     <main className="container">
+    <h2>Aaron Tobey</h2>
+    <hr/>
     <h2>Portfolio</h2>
     {content}
 

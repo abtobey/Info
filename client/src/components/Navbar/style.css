@@ -38,8 +38,9 @@ nav{
 }
 
 @media screen and (max-width: 640px) {
-    .navbar{
-        flex-wrap: none;
+    .navbar-nav{
+        /* flex-wrap: none; */
+        text-align: center;
     }
     .navbar-toggler{
         margin-left:20px;
@@ -49,9 +50,13 @@ nav{
         margin-right:20px;
         width: 100%;
         font-size: 25px;
-
+ 
     }
     .img-thumbnail{
         width:100%;
+        margin:auto;
+    }
+    ul{
+       display: inline-block;
     }
 }
