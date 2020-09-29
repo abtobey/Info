@@ -7,7 +7,7 @@ function Navbar(){
 
 
 return(
-    <nav className="navbar navbar-expand-md navbar-light bg-light">
+    <nav className="navbar navbar-expand-md navbar-light">
     <div className="nameBox">
         Aaron Tobey
     </div>
