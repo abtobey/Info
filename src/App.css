@@ -1,4 +1,6 @@
-
+.App{
+  background-color: white;
+}
 
 .App-logo {
   height: 40vmin;
@@ -34,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
 .gray{
   background-color:rgb(134,147,151);
   height: 1vh;

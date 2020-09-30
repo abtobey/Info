@@ -12,7 +12,7 @@ return(
       <hr/>
       <h4>About Me</h4>
       <div className="row profileText">
-        <p><img className="img img-thumbnail" src=".//assets/profileImage.jpg" alt="Headshot"></img>
+        <p><img className="img img-thumbnail" src="./assets/profileImage.jpg" alt="Headshot"></img>
         
           I'm originally from Austin, TX but have lived in the Dallas area for the last 10 years. I live with my wife Lauren and our two dogs, River and Buster. <br></br><br></br>
          I graduated from Texas A&amp;M in 2009 with a degree in Manufacturing &amp; Mechanical Engineering Technology and worked as an industrial engineer until 2020, the last 6 years with UPS. During that time, I grew my skills in creating applications using excel with VBA to make tasks which were previously tedious and difficult quick and easy. What started as fancy spreadsheets with simple macros evolved into complex applications with SQL backends. Many of these will continue to be used long after my time there ended. 
