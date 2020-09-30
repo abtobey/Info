@@ -7,7 +7,7 @@ return(
     <main className="container">
             <div className="card">
               <div className="card-header">
-                <h1 className="contact">Contact Information</h1>
+                <h2 className="contact">Contact Information</h2>
               </div>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item"><a href="https://www.linkedin.com/in/aarontobey/">LinkedIn</a></li>
