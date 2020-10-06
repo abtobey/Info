@@ -1,6 +1,13 @@
 {
     "projects" : [
     {
+        "title": "School Box",
+        "alt": "camera",
+        "href": "https://school-box.herokuapp.com/",
+        "image" : "./assets/schoolbooks.jpg",
+        "description" : "My final project in my boot camp, I worked with a partner to create a full stack React app for teachers and students to manage their classes and create, update and view assignments and grades."
+    },
+    {
         "title": "Film Club",
         "alt": "camera",
         "href": "https://film-club-ian-aaron.herokuapp.com/",
