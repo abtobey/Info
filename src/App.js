@@ -16,8 +16,7 @@ function App() {
       <Route exact path = "/" component={Profile}/>
       <Route exact path ="/portfolio" component={Portfolio}/>
       <Route exact path ="/contact" component={Contact}/>
-      <div className="gray"></div>
-      <div className="cowboysBlue">Created with React.js</div>
+
     </div>
     </Router>
   );

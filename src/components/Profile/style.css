@@ -3,9 +3,10 @@
     padding: 20px;
 }
 
-img{
+#headshot{
     float:left;
     margin: 10px;
+
 }
 h2, h3, h4{
     text-align:center;

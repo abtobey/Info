@@ -11,7 +11,8 @@
 }
 .navbar{
     padding:0;
-    background-color:#EEEEEE
+    background-color:#EEEEEE;
+    opacity:90%
 }
 .nav-item{
     font-size: 20px;
